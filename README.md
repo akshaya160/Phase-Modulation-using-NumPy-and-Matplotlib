@@ -50,9 +50,8 @@ plot(t,ePM);
 
 
 ### Tabulation
-
+```
 <img width="627" height="907" alt="image" src="https://github.com/user-attachments/assets/f161639f-8bbf-46c9-8b1a-65572460416b" />
-
 
 ### Output
 
