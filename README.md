@@ -61,3 +61,5 @@ plot(t,ePM);
 
 ### Result
 
+Thus the Phase-Modulation  are executed in Scilab and output is verified.
+
