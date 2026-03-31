@@ -9,7 +9,6 @@ Phase Modulation (PM) is a technique where the phase of the carrier wave is vari
 
 The general form of a PM signal can be represented as:
 
-
 <img width="306" height="241" alt="image" src="https://github.com/user-attachments/assets/b8d2db63-afe0-4bd8-8826-efc89a111423" />
 
 ### Algorithm
@@ -47,16 +46,15 @@ plot(t,eFM);
 ePM = Ac*cos((2*3.14*fc*t) + (B*cos(2*3.14*fm*t)));
 subplot(4,1,4);
 plot(t,ePM);
-
+```
 
 ### Tabulation
-```
+
 <img width="627" height="907" alt="image" src="https://github.com/user-attachments/assets/f161639f-8bbf-46c9-8b1a-65572460416b" />
 
 ### Output
 
 ![WhatsApp Image 2026-03-31 at 12 31 41 PM](https://github.com/user-attachments/assets/b06479ba-dda7-4e11-9d6d-c94ac647e238)
-
 
 
 ### Result
