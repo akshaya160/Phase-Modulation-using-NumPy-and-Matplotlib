@@ -27,12 +27,37 @@ o	Use Matplotlib to plot the message signal, carrier signal, and phase-modulated
 
 
 ### Program
+```
+Am = 3.2;
+Ac=6.4;
+fm = 154;
+fc=1540;
+fs = 15400;
+B = 3.3;
+t = 0:1/fs:2/fm;
+em = Am*cos(2*3.14*fm*t);
+subplot(4,1,1);
+plot(t,em);
+ec = Ac*cos(2*3.14*fc*t);
+subplot(4,1,2);
+plot(t,ec);
+eFM = Ac*cos((2*3.14*fc*t) + (B*sin(2*3.14*fm*t)));
+subplot(4,1,3);
+plot(t,eFM);
+ePM = Ac*cos((2*3.14*fc*t) + (B*cos(2*3.14*fm*t)));
+subplot(4,1,4);
+plot(t,ePM);
 
 
 ### Tabulation
 
+<img width="627" height="907" alt="image" src="https://github.com/user-attachments/assets/f161639f-8bbf-46c9-8b1a-65572460416b" />
+
 
 ### Output
+
+![WhatsApp Image 2026-03-31 at 12 31 41 PM](https://github.com/user-attachments/assets/b06479ba-dda7-4e11-9d6d-c94ac647e238)
+
 
 
 ### Result
