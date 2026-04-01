@@ -76,8 +76,7 @@ plot(t,ePM,'G');
 ### Output
 
 ![WhatsApp Image 2026-03-31 at 12 31 41 PM](https://github.com/user-attachments/assets/b06479ba-dda7-4e11-9d6d-c94ac647e238)
-![WhatsApp Image 2026-03-31 at 12 31 41 PM](https://github.com/user-attachments/assets/2c57bffb-7285-4aab-9c90-e4b55916676c)
-
+<img width="1600" height="1001" alt="image" src="https://github.com/user-attachments/assets/a94db953-4972-4dfb-b31f-994226a09cb9" />
 
 ### Result
 
